@@ -4,19 +4,11 @@
 #include "encrypt.h"
 
 int main() {
-	char *msg;
-    printf("Enter text to encrypt.\nEnter q to exit\n");
-
-	while(fgets(msg, 800, stdin)) {
-        if(strcmp(msg, "q") == 0) {
-            break;
-        }
-        else {
-		    encrypt(msg);
-            printf("%s", msg, "\n");
-        }
+    char *msg;
+    printf("Enter text to encrypt.\n\n");
+        while(fgets(msg, 800, stdin)) {
+            encrypt(msg);
+            printf("%s\n\n", msg);
 	}
-	
-	return 0;
+    return 0;
 }
-
