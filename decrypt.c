@@ -5,10 +5,10 @@
 
 int main() {
     char *str;
-    printf("Enter text to dencrypt.\nEnter q to exit\n");	
+    printf("Enter text to dencrypt.\n\n");	
     while(fgets(str, 800, stdin)) {
-	decrypt(str);
-	printf("%s", str);
+	    decrypt(str);
+	    printf("%s\n\n", str);
     }
 	return 0;
 }
