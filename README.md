@@ -13,4 +13,4 @@ c++ -x c -o encrypt decrypt.c
 ./encrypt
 ./decrypt
 ```
-![screenshot](https://user-images.githubusercontent.com/122676310/214865013-c61deb4e-fb1a-427a-94fe-9f70af0bb057.png)
+![screen_update](https://user-images.githubusercontent.com/122676310/214868544-32f4fb0a-183a-4d9b-b3f3-c8f96ca75bf8.png)
