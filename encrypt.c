@@ -4,14 +4,13 @@
 #include "encrypt.h"
 
 int main() {
-	char *msg;
+    char *msg;
     printf("Enter text to encrypt.\n\n");
-
-	while(fgets(msg, 800, stdin)) {
+    
+    while(fgets(msg, 800, stdin)) {
         encrypt(msg);
         printf("%s\n\n", msg);
-	}
-	
-	return 0;
+    }
+    return 0;
 }
 
