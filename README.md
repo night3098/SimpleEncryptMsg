@@ -5,7 +5,7 @@
 git clone https://github.com/night3098/SimpleEncryptMsg
 cd SimpleEncryptMsg
 c++ -x c -o encrypt encrypt.c
-c++ -x c -o encrypt decrypt.c
+c++ -x c -o decrypt decrypt.c
 ```
 # Use
 
