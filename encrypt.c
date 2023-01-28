@@ -1,16 +1,17 @@
-#include<stdlib.h>
-#include<stdio.h>
-#include<string.h>
 #include "encrypt.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main() {
-    char *msg;
-    printf("Enter text to encrypt.\n\n");
-    
-    while(fgets(msg, 800, stdin)) {
-        encrypt(msg);
-        printf("%s\n\n", msg);
-    }
-    return 0;
-}
+  char *msg;
+  printf("Enter text to encrypt.\n\n");
+  printf("====================================================\n");
 
+  while (fgets(msg, 800, stdin)) {
+    encrypt(msg);
+    printf("Encrypting...: %s\n\n", msg);
+    printf("====================================================\n");
+  }
+  return 0;
+}

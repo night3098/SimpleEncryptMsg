@@ -1,15 +1,16 @@
-
-#include<stdlib.h>
-#include<stdio.h>
-#include<string.h>
 #include "encrypt.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main() {
-    char *str;
-    printf("Enter text to dencrypt.\n\n");	
-    while(fgets(str, 800, stdin)) {
-	    decrypt(str);
-	    printf("%s\n\n", str);
-    }
-	return 0;
+  char *str;
+  printf("Enter text to dencrypt.\n\n");
+  printf("===================================================\n");
+  while (fgets(str, 800, stdin)) {
+    decrypt(str);
+    printf("decrypting....: %s\n\n", str);
+    printf("====================================================\n");
+  }
+  return 0;
 }
